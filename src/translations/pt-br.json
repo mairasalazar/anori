@@ -178,6 +178,13 @@
             "widgetName": "Calendário",
             "firstDayOfWeek": "Primeiro dia da semana"
         },
+        "countdown-plugin": {
+            "name": "Contagem Regressiva",
+            "widgetName": "Contagem Regressiva",
+            "countdownToDate": "Contando até",
+            "countdownOver": "A contagem regressiva acabou 🎉",
+            "countdownToTitle": "Contagem regressiva para o quê?"
+        },
         "datetime-plugin": {
             "name": "Data e hora",
             "widgetNameS": "Data e hora - tamanho P",

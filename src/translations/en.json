@@ -188,6 +188,13 @@
             "widgetName": "Calendar",
             "firstDayOfWeek": "First day of the week"
         },
+        "countdown-plugin": {
+            "name": "Countdown",
+            "widgetName": "Countdown",
+            "countdownToDate": "Counting down to",
+            "countdownOver": "Your countdown is over 🎉",
+            "countdownToTitle": "Counting down to what?"
+        },
         "datetime-plugin": {
             "name": "Date and time",
             "widgetNameS": "Date and time - size S",

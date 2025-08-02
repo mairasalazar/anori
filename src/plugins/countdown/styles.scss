@@ -1,0 +1,38 @@
+.CountdownWidget {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex-grow: 1;
+    overflow: visible;
+
+    .countdown {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
+
+.CountdownWidget-config {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+
+    &>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .save-config {
+        align-self: center;
+        margin-top: 16px;
+    }
+}
