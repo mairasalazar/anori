@@ -2,6 +2,7 @@ import type { AnoriPlugin } from "@anori/utils/user-data/types";
 import { ankiPlugin } from "./anki/anki-plugin";
 import { bookmarkPlugin } from "./bookmark/bookmark-plugin";
 import { calendarPlugin } from "./calendar/calendar-plugin";
+import { countdownPlugin } from "./countdown/countdown-plugin";
 import { datetimePlugin } from "./datetime/datetime-plugin";
 import { iframePlugin } from "./iframe/iframe-plugin";
 import { mathPlugin } from "./math/math-plugin";
@@ -27,6 +28,7 @@ export const allPlugins: AnoriPlugin<any, any>[] = [
   mathPlugin,
   weatherPlugin,
   calendarPlugin,
+  countdownPlugin,
   recentlyClosedPlugin,
   topSitesPlugin,
   systemStatusPlugin,
